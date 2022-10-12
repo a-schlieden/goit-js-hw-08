@@ -32,8 +32,18 @@ var throttle = require('lodash.throttle');
 
 //================================================
 const formEl = document.querySelector('.feedback-form');
-const formEmailEl = formEl.querySelector('input');
-const formMessageEl = formEl.querySelector('textarea');
+const formEmailEl = formEl.querySelector('input[name="email"]');
+const formMessageEl = formEl.querySelector('textarea[name="message"]');
+
+const refs = {
+  formEl2: document.querySelector('.feedback-form'),
+  formMessageEl2: formEl.querySelector('textarea[name="message"]'),
+  formEmailEl2: formEl.querySelector('input[name="email"]'),
+};
+
+console.log(refs.formMessageEl2);
+console.log(refs.formEmailEl2);
+console.log(refs.formEl2);
 
 formEl.addEventListener('submit', onFormSubmit);
 formEl.addEventListener('input', throttle(onFormElInput, 500));
