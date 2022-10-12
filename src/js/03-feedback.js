@@ -31,17 +31,6 @@ var throttle = require('lodash.throttle');
 // }
 
 //================================================
-// formData = {};
-// refs.form.addEventListener(input, event => {
-//   console.log(event.target.name);
-//   console.log(event.target.value);
-
-//   formData[event.target.name] = event.target.value;
-// });
-
-//=================================================================================
-
-//================================================
 const formEl = document.querySelector('.feedback-form');
 const formEmailEl = formEl.querySelector('input');
 const formMessageEl = formEl.querySelector('textarea');
