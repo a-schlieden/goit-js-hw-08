@@ -1,11 +1,11 @@
 {
-  "name": "goit-js-hw-08",
+  "name": "fetch-example-js",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://a-schlieden.github.io/goit-js-hw-08/",
+  "homepage": "https://a-schlieden.github.io/fetch-example-js/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /fetch-example-js/"
   },
   "repository": {
     "type": "git",
